@@ -1,0 +1,13 @@
+numpy
+scipy
+h5py
+torch
+matplotlib
+pandas
+tqdm
+botorch
+gpytorch
+gymnasium
+stable-baselines3
+# Required only for ASTRA simulation generation. Install according to the local ASTRA/lume-astra setup.
+# lume-astra
