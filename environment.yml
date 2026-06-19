@@ -1,0 +1,21 @@
+name: hgsm-review
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - numpy
+  - scipy
+  - h5py
+  - matplotlib
+  - pandas
+  - tqdm
+  - pytorch
+  - pip
+  - pip:
+      - botorch
+      - gpytorch
+      - gymnasium
+      - stable-baselines3
+      # Install the ASTRA/lume-astra dependency separately if regenerating simulation data.
