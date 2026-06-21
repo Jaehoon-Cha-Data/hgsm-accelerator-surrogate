@@ -19,7 +19,7 @@ hgsm_reviewer_code/
     ├── 03_continue_hypernet_uq_training.py
     ├── 04_train_quantile_baseline.py
     ├── 05_train_single_baseline.py
-    ├── 06_evaluate_hypernet_validation_test.py
+    ├── 06_hgsm_model_inference.py
     ├── 07_few_shot_latent_calibration.py
     ├── 08_generate_shifted_systems.py
     ├── 09_bo_transfer_studies.py
