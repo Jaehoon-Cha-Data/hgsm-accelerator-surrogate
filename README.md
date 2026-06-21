@@ -16,14 +16,13 @@ hgsm_reviewer_code/
 ├── scripts/
     ├── 01_train_hypernet_mean_baseline.py
     ├── 02_train_hypernet_uq.py
-    ├── 03_continue_hypernet_uq_training.py
-    ├── 04_train_quantile_baseline.py
-    ├── 05_train_single_baseline.py
-    ├── 06_hgsm_model_inference.py
-    ├── 07_few_shot_latent_calibration.py
-    ├── 08_generate_shifted_systems.py
-    ├── 09_bo_transfer_studies.py
-    └── 10_ppo_transfer_studies.py
+    ├── 03_train_quantile_baseline.py
+    ├── 04_train_single_baseline.py
+    ├── 05_hgsm_model_inference.py
+    ├── 06_few_shot_latent_calibration.py
+    ├── 07_generate_shifted_systems.py
+    ├── 08_bo_transfer_studies.py
+    └── 09_ppo_transfer_studies.py
 
 ```
 
