@@ -323,7 +323,7 @@ def save_records_csv(records, path):
 if __name__ == '__main__':
     set_seed(42)
     data_path = 'sim_data'
-    weights_folder = 'best_physics_model'
+    weights_folder = 'check_points'
     calibrated_latent_path = 'calibrated_latent.pt'
     out_dir = 'shifted_systems_twiss_guided'
     os.makedirs(out_dir, exist_ok=True)
